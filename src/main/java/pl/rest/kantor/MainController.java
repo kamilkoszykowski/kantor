@@ -51,10 +51,10 @@ public class MainController {
         return  "AKTUALIZACJA KURSÓW\n" + "/kursy/aktualizuj\n\n" +
                 "DODAWANIE KLIENTÓW\n" + "/klienci/dodaj/imie:nazwisko:data_urodzenia(rrrr-mm-dd):PESEL:numer_rachunku\n\n" +
                 "DODAWANIE WPŁAT\n" + "/wplaty/dodaj/numer_rachunku:kwota\n\n" +
-                "WYMIANA WALUTY (DANEJ ILOŚCI)\n" + "przykład wymiany 1000PLN na USD: /wymiana/1.PLN:1000->USD\n" +
-                "WYMIANA WALUTY (NA DANĄ ILOŚĆ)\n" + "przykład wymiany x PLN na 1000USD: /wymiana/1.PLN->USD:1000\n" +
-                "NOWA WYMIANA WALUTY (NA DANĄ ILOŚĆ)\n" + "przykład wymiany x PLN na 1000USD: /wymiana/klient:1->PLN:1000->USD\n" +
-                "NOWA WYMIANA WALUTY (NA DANĄ ILOŚĆ)\n" + "przykład wymiany x PLN na 1000USD: /wymiana/klient:1->PLN->USD:1000\n";
+                "WYMIANA WALUTY (NA DANĄ ILOŚĆ)\n" + "przykład wymiany x PLN na 1000USD: /wymiana/klient:1->PLN:1000->USD\n" +
+                "WYMIANA WALUTY (NA DANĄ ILOŚĆ)\n" + "przykład wymiany x PLN na 1000USD: /wymiana/klient:1->PLN->USD:1000\n" +
+                "WYŚWIETLANIE WSZYSTKICH REKORDÓW\n" + "/klienci /kursy /wplaty /konta /historia\n+" +
+                "WYŚWIETLANIE WSZYSTKICH REKORDÓW PO id\n" + "/klienci/{id} ...";
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
